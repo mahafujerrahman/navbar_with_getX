@@ -28,7 +28,7 @@ class _NavBarState extends State<NavBar> {
             HomeScreen(),
             NoteScreen(),
             ChartScreen(),
-            SettingScreen()
+            SettingScreen(),
           ],
         ),
         bottomNavigationBar: BottomNavigationBar(
@@ -40,7 +40,7 @@ class _NavBarState extends State<NavBar> {
             onTap: controller.changeTabIndex,
             items: [
               _bottombarItem(IconlyBold.home,'Home'),
-              _bottombarItem(IconlyBold.document,'Note'),
+              _bottombarItem(IconlyBold.message,'Note'),
               _bottombarItem(IconlyBold.chart,'Chart'),
               _bottombarItem(IconlyBold.setting,'Setting'),
 
