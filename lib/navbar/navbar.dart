@@ -43,7 +43,6 @@ class _NavBarState extends State<NavBar> {
               _bottombarItem(IconlyBold.message,'Note'),
               _bottombarItem(IconlyBold.chart,'Chart'),
               _bottombarItem(IconlyBold.setting,'Setting'),
-
             ]
         ),
       );
@@ -53,6 +52,3 @@ class _NavBarState extends State<NavBar> {
   _bottombarItem(IconData icon,String label){
   return BottomNavigationBarItem( icon: Icon(icon),label: label);
   }
-
-
-
