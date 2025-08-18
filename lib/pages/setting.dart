@@ -24,6 +24,7 @@ class _SettingScreenState extends State<SettingScreen> {
                 icon: Icons.qr_code_2,
                 color: Colors.red,
                 onTap: () {
+                  print('click');
                   Get.toNamed(AppPage.nextscreen);
                 },
               ),

@@ -28,7 +28,7 @@ static List<GetPage> routes = [
   static getonboardingScreen() => onboardingScreen;
   static getsplashScreen() => splashScreen;
 
-  //
+  // =============== >>>>
   static String navbar = '/';
   static String home = '/home';
   static String note = '/note';
@@ -37,4 +37,5 @@ static List<GetPage> routes = [
   static String nextscreen = '/nextScreen';
   static String onboardingScreen = '/onboardingScreen';
   static String splashScreen = '/splashScreen';
+
 }

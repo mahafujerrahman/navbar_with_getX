@@ -51,3 +51,4 @@ class _NavBarState extends State<NavBar> {
   _bottombarItem(IconData icon,String label){
   return BottomNavigationBarItem( icon: Icon(icon),label: label);
   }
+

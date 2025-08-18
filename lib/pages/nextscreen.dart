@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:navbar_with_getx/navbar/navbar.dart';
 
 class NextScreen extends StatefulWidget {
   const NextScreen({super.key});
